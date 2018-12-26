@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
+        sleep(2)
+        
         // 创建视图
         let community = CommunityViewController()
         let gamelibrary = GameLibraryViewController()
@@ -29,24 +31,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let personalCenter = PersonalCenterViewController()
         
         // 设置视图属性
-        community.tabBarItem = UITabBarItem(title: "论坛", image: nil, selectedImage: nil)
+        community.tabBarItem = UITabBarItem(title: "论坛", image: UIImage(named: "community.png")?.withRenderingMode(.alwaysOriginal), selectedImage: nil)
         community.title = "论坛"
         gamelibrary.tabBarItem = UITabBarItem(title: "游戏库", image: nil, selectedImage: nil)
         gamelibrary.title = "游戏库"
         friend.tabBarItem = UITabBarItem(title: "好友", image: nil, selectedImage: nil)
-        personalCenter.tabBarItem = UITabBarItem(title: "个人中心", image: nil, selectedImage: nil)
+        friend.title = "好友"
+        personalCenter.tabBarItem = UITabBarItem(title: "个人中心", image: UIImage(named: "man.png")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "woman.png")?.withRenderingMode(.alwaysOriginal))
+        personalCenter.title = "个人中心"
         
         // 创建导航控制器
         let navCommunity = UINavigationController(rootViewController: community)
+        navCommunity.navigationBar.isHidden = true
         let navGameLibrary = UINavigationController(rootViewController: gamelibrary)
+        navGameLibrary.navigationBar.isHidden = true
         let navFriend = UINavigationController(rootViewController: friend)
+        navFriend.navigationBar.isHidden = true
         let navPersonalCenter = UINavigationController(rootViewController: personalCenter)
+        navPersonalCenter.navigationBar.isHidden = true
         
         // 创建分栏控制器
-        let tabber = UITabBarController()
-        tabber.viewControllers = [navCommunity, navGameLibrary, navFriend, navPersonalCenter]
+        let tabbar = UITabBarController()
+        tabbar.viewControllers = [navCommunity, navGameLibrary, navFriend, navPersonalCenter]
         
-        window?.rootViewController = tabber
+        window?.rootViewController = tabbar
+        
+        NSLog("appdelegate")
         
         return true
     }

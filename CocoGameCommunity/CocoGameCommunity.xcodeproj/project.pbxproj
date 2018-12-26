@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F6F7BFD21D30DEE00A055F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */; };
-		3F6F7BFF21D30DEE00A055F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */; };
-		3F6F7C0221D30DEE00A055F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0021D30DEE00A055F4 /* Main.storyboard */; };
 		3F6F7C0521D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0321D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld */; };
 		3F6F7C0721D30DEE00A055F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */; };
 		3F6F7C0A21D30DEE00A055F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */; };
 		3F6F7C1521D30DEE00A055F4 /* CocoGameCommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C1421D30DEE00A055F4 /* CocoGameCommunityTests.swift */; };
 		3F6F7C2021D30DEE00A055F4 /* CocoGameCommunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C1F21D30DEE00A055F4 /* CocoGameCommunityUITests.swift */; };
-		3F6F7C3321D3257800A055F4 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3021D3257700A055F4 /* woman.png */; };
-		3F6F7C3421D3257800A055F4 /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3121D3257700A055F4 /* community.png */; };
-		3F6F7C3521D3257800A055F4 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3221D3257700A055F4 /* man.png */; };
 		3F6F7C3721D3266700A055F4 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */; };
 		3F6F7C3921D3299500A055F4 /* GameLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */; };
 		3F6F7C3B21D329D800A055F4 /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */; };
 		3F6F7C3D21D32A0B00A055F4 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */; };
+		3F6F7C3F21D34FD200A055F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3E21D34FD200A055F4 /* AppDelegate.swift */; };
+		3F6F7C4321D3500800A055F4 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C4021D3500800A055F4 /* woman.png */; };
+		3F6F7C4421D3500800A055F4 /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C4121D3500800A055F4 /* community.png */; };
+		3F6F7C4521D3500800A055F4 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C4221D3500800A055F4 /* man.png */; };
+		3F6F7C4821D35A6400A055F4 /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C4721D35A6400A055F4 /* BadgeViewController.swift */; };
+		3F6F7C4A21D35E5000A055F4 /* launchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C4921D35E5000A055F4 /* launchImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +43,6 @@
 
 /* Begin PBXFileReference section */
 		3F6F7BF921D30DEE00A055F4 /* CocoGameCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoGameCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F6F7C0121D30DEE00A055F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6F7C0421D30DEE00A055F4 /* CocoGameCommunity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CocoGameCommunity.xcdatamodel; sourceTree = "<group>"; };
 		3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6F7C0921D30DEE00A055F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +53,16 @@
 		3F6F7C1B21D30DEE00A055F4 /* CocoGameCommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoGameCommunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6F7C1F21D30DEE00A055F4 /* CocoGameCommunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoGameCommunityUITests.swift; sourceTree = "<group>"; };
 		3F6F7C2121D30DEE00A055F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F6F7C3021D3257700A055F4 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
-		3F6F7C3121D3257700A055F4 /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = community.png; sourceTree = "<group>"; };
-		3F6F7C3221D3257700A055F4 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
 		3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLibraryViewController.swift; sourceTree = "<group>"; };
 		3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
 		3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		3F6F7C3E21D34FD200A055F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Appdelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		3F6F7C4021D3500800A055F4 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = Resource/woman.png; sourceTree = "<group>"; };
+		3F6F7C4121D3500800A055F4 /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = community.png; path = Resource/community.png; sourceTree = "<group>"; };
+		3F6F7C4221D3500800A055F4 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = Resource/man.png; sourceTree = "<group>"; };
+		3F6F7C4721D35A6400A055F4 /* BadgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BadgeViewController.swift; path = PersonalCenter/BadgeViewController.swift; sourceTree = "<group>"; };
+		3F6F7C4921D35E5000A055F4 /* launchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,8 @@
 				3F6F7C2D21D3117100A055F4 /* Appdelegate */,
 				3F6F7C2E21D3118400A055F4 /* Modules */,
 				3F6F7C2F21D3120500A055F4 /* Resource */,
+				3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */,
+				3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */,
 				3F6F7C0B21D30DEE00A055F4 /* Info.plist */,
 				3F6F7C0321D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld */,
 			);
@@ -143,7 +145,7 @@
 		3F6F7C2D21D3117100A055F4 /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
-				3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */,
+				3F6F7C3E21D34FD200A055F4 /* AppDelegate.swift */,
 			);
 			name = Appdelegate;
 			sourceTree = "<group>";
@@ -151,12 +153,10 @@
 		3F6F7C2E21D3118400A055F4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */,
-				3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */,
-				3F6F7C0021D30DEE00A055F4 /* Main.storyboard */,
+				3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */,
+				3F6F7C4621D35A0800A055F4 /* PersonalCenter */,
 				3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */,
 				3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */,
-				3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */,
 				3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */,
 			);
 			path = Modules;
@@ -165,12 +165,20 @@
 		3F6F7C2F21D3120500A055F4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3F6F7C3121D3257700A055F4 /* community.png */,
-				3F6F7C3221D3257700A055F4 /* man.png */,
-				3F6F7C3021D3257700A055F4 /* woman.png */,
-				3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */,
+				3F6F7C4921D35E5000A055F4 /* launchImage.jpg */,
+				3F6F7C4121D3500800A055F4 /* community.png */,
+				3F6F7C4221D3500800A055F4 /* man.png */,
+				3F6F7C4021D3500800A055F4 /* woman.png */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		3F6F7C4621D35A0800A055F4 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F7C4721D35A6400A055F4 /* BadgeViewController.swift */,
+			);
+			name = PersonalCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,12 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6F7C3521D3257800A055F4 /* man.png in Resources */,
+				3F6F7C4A21D35E5000A055F4 /* launchImage.jpg in Resources */,
 				3F6F7C0A21D30DEE00A055F4 /* LaunchScreen.storyboard in Resources */,
+				3F6F7C4521D3500800A055F4 /* man.png in Resources */,
+				3F6F7C4421D3500800A055F4 /* community.png in Resources */,
+				3F6F7C4321D3500800A055F4 /* woman.png in Resources */,
 				3F6F7C0721D30DEE00A055F4 /* Assets.xcassets in Resources */,
-				3F6F7C3321D3257800A055F4 /* woman.png in Resources */,
-				3F6F7C3421D3257800A055F4 /* community.png in Resources */,
-				3F6F7C0221D30DEE00A055F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6F7C3F21D34FD200A055F4 /* AppDelegate.swift in Sources */,
 				3F6F7C3721D3266700A055F4 /* CommunityViewController.swift in Sources */,
-				3F6F7BFF21D30DEE00A055F4 /* ViewController.swift in Sources */,
 				3F6F7C0521D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld in Sources */,
+				3F6F7C4821D35A6400A055F4 /* BadgeViewController.swift in Sources */,
 				3F6F7C3D21D32A0B00A055F4 /* FriendViewController.swift in Sources */,
-				3F6F7BFD21D30DEE00A055F4 /* AppDelegate.swift in Sources */,
 				3F6F7C3921D3299500A055F4 /* GameLibraryViewController.swift in Sources */,
 				3F6F7C3B21D329D800A055F4 /* PersonalCenterViewController.swift in Sources */,
 			);
@@ -349,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F6F7C0021D30DEE00A055F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F6F7C0121D30DEE00A055F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
