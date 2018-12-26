@@ -18,6 +18,10 @@
 		3F6F7C3321D3257800A055F4 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3021D3257700A055F4 /* woman.png */; };
 		3F6F7C3421D3257800A055F4 /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3121D3257700A055F4 /* community.png */; };
 		3F6F7C3521D3257800A055F4 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3221D3257700A055F4 /* man.png */; };
+		3F6F7C3721D3266700A055F4 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */; };
+		3F6F7C3921D3299500A055F4 /* GameLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */; };
+		3F6F7C3B21D329D800A055F4 /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */; };
+		3F6F7C3D21D32A0B00A055F4 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		3F6F7C3021D3257700A055F4 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
 		3F6F7C3121D3257700A055F4 /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = community.png; sourceTree = "<group>"; };
 		3F6F7C3221D3257700A055F4 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLibraryViewController.swift; sourceTree = "<group>"; };
+		3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
+		3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,10 @@
 				3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */,
 				3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */,
 				3F6F7C0021D30DEE00A055F4 /* Main.storyboard */,
+				3F6F7C3821D3299500A055F4 /* GameLibraryViewController.swift */,
+				3F6F7C3621D3266700A055F4 /* CommunityViewController.swift */,
+				3F6F7C3A21D329D800A055F4 /* PersonalCenterViewController.swift */,
+				3F6F7C3C21D32A0B00A055F4 /* FriendViewController.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -295,9 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6F7C3721D3266700A055F4 /* CommunityViewController.swift in Sources */,
 				3F6F7BFF21D30DEE00A055F4 /* ViewController.swift in Sources */,
 				3F6F7C0521D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld in Sources */,
+				3F6F7C3D21D32A0B00A055F4 /* FriendViewController.swift in Sources */,
 				3F6F7BFD21D30DEE00A055F4 /* AppDelegate.swift in Sources */,
+				3F6F7C3921D3299500A055F4 /* GameLibraryViewController.swift in Sources */,
+				3F6F7C3B21D329D800A055F4 /* PersonalCenterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
