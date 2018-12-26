@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6F7BFD21D30DEE00A055F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */; };
+		3F6F7BFF21D30DEE00A055F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */; };
+		3F6F7C0221D30DEE00A055F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0021D30DEE00A055F4 /* Main.storyboard */; };
+		3F6F7C0521D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0321D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld */; };
+		3F6F7C0721D30DEE00A055F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */; };
+		3F6F7C0A21D30DEE00A055F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */; };
+		3F6F7C1521D30DEE00A055F4 /* CocoGameCommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C1421D30DEE00A055F4 /* CocoGameCommunityTests.swift */; };
+		3F6F7C2021D30DEE00A055F4 /* CocoGameCommunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F7C1F21D30DEE00A055F4 /* CocoGameCommunityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6F7C1121D30DEE00A055F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6F7BF121D30DEE00A055F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6F7BF821D30DEE00A055F4;
+			remoteInfo = CocoGameCommunity;
+		};
+		3F6F7C1C21D30DEE00A055F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6F7BF121D30DEE00A055F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6F7BF821D30DEE00A055F4;
+			remoteInfo = CocoGameCommunity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6F7BF921D30DEE00A055F4 /* CocoGameCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoGameCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6F7C0121D30DEE00A055F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6F7C0421D30DEE00A055F4 /* CocoGameCommunity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CocoGameCommunity.xcdatamodel; sourceTree = "<group>"; };
+		3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6F7C0921D30DEE00A055F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6F7C0B21D30DEE00A055F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6F7C1021D30DEE00A055F4 /* CocoGameCommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoGameCommunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6F7C1421D30DEE00A055F4 /* CocoGameCommunityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoGameCommunityTests.swift; sourceTree = "<group>"; };
+		3F6F7C1621D30DEE00A055F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6F7C1B21D30DEE00A055F4 /* CocoGameCommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoGameCommunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6F7C1F21D30DEE00A055F4 /* CocoGameCommunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoGameCommunityUITests.swift; sourceTree = "<group>"; };
+		3F6F7C2121D30DEE00A055F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6F7BF621D30DEE00A055F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C0D21D30DEE00A055F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C1821D30DEE00A055F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6F7BF021D30DEE00A055F4 = {
+			isa = PBXGroup;
+			children = (
+				3F6F7BFB21D30DEE00A055F4 /* CocoGameCommunity */,
+				3F6F7C1321D30DEE00A055F4 /* CocoGameCommunityTests */,
+				3F6F7C1E21D30DEE00A055F4 /* CocoGameCommunityUITests */,
+				3F6F7BFA21D30DEE00A055F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6F7BFA21D30DEE00A055F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F7BF921D30DEE00A055F4 /* CocoGameCommunity.app */,
+				3F6F7C1021D30DEE00A055F4 /* CocoGameCommunityTests.xctest */,
+				3F6F7C1B21D30DEE00A055F4 /* CocoGameCommunityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6F7BFB21D30DEE00A055F4 /* CocoGameCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F7BFC21D30DEE00A055F4 /* AppDelegate.swift */,
+				3F6F7BFE21D30DEE00A055F4 /* ViewController.swift */,
+				3F6F7C0021D30DEE00A055F4 /* Main.storyboard */,
+				3F6F7C0621D30DEE00A055F4 /* Assets.xcassets */,
+				3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */,
+				3F6F7C0B21D30DEE00A055F4 /* Info.plist */,
+				3F6F7C0321D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld */,
+			);
+			path = CocoGameCommunity;
+			sourceTree = "<group>";
+		};
+		3F6F7C1321D30DEE00A055F4 /* CocoGameCommunityTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F7C1421D30DEE00A055F4 /* CocoGameCommunityTests.swift */,
+				3F6F7C1621D30DEE00A055F4 /* Info.plist */,
+			);
+			path = CocoGameCommunityTests;
+			sourceTree = "<group>";
+		};
+		3F6F7C1E21D30DEE00A055F4 /* CocoGameCommunityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F7C1F21D30DEE00A055F4 /* CocoGameCommunityUITests.swift */,
+				3F6F7C2121D30DEE00A055F4 /* Info.plist */,
+			);
+			path = CocoGameCommunityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6F7BF821D30DEE00A055F4 /* CocoGameCommunity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6F7C2421D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunity" */;
+			buildPhases = (
+				3F6F7BF521D30DEE00A055F4 /* Sources */,
+				3F6F7BF621D30DEE00A055F4 /* Frameworks */,
+				3F6F7BF721D30DEE00A055F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoGameCommunity;
+			productName = CocoGameCommunity;
+			productReference = 3F6F7BF921D30DEE00A055F4 /* CocoGameCommunity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6F7C0F21D30DEE00A055F4 /* CocoGameCommunityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6F7C2721D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunityTests" */;
+			buildPhases = (
+				3F6F7C0C21D30DEE00A055F4 /* Sources */,
+				3F6F7C0D21D30DEE00A055F4 /* Frameworks */,
+				3F6F7C0E21D30DEE00A055F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6F7C1221D30DEE00A055F4 /* PBXTargetDependency */,
+			);
+			name = CocoGameCommunityTests;
+			productName = CocoGameCommunityTests;
+			productReference = 3F6F7C1021D30DEE00A055F4 /* CocoGameCommunityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6F7C1A21D30DEE00A055F4 /* CocoGameCommunityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6F7C2A21D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunityUITests" */;
+			buildPhases = (
+				3F6F7C1721D30DEE00A055F4 /* Sources */,
+				3F6F7C1821D30DEE00A055F4 /* Frameworks */,
+				3F6F7C1921D30DEE00A055F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6F7C1D21D30DEE00A055F4 /* PBXTargetDependency */,
+			);
+			name = CocoGameCommunityUITests;
+			productName = CocoGameCommunityUITests;
+			productReference = 3F6F7C1B21D30DEE00A055F4 /* CocoGameCommunityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6F7BF121D30DEE00A055F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "余鑫";
+				TargetAttributes = {
+					3F6F7BF821D30DEE00A055F4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3F6F7C0F21D30DEE00A055F4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F6F7BF821D30DEE00A055F4;
+					};
+					3F6F7C1A21D30DEE00A055F4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F6F7BF821D30DEE00A055F4;
+					};
+				};
+			};
+			buildConfigurationList = 3F6F7BF421D30DEE00A055F4 /* Build configuration list for PBXProject "CocoGameCommunity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6F7BF021D30DEE00A055F4;
+			productRefGroup = 3F6F7BFA21D30DEE00A055F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6F7BF821D30DEE00A055F4 /* CocoGameCommunity */,
+				3F6F7C0F21D30DEE00A055F4 /* CocoGameCommunityTests */,
+				3F6F7C1A21D30DEE00A055F4 /* CocoGameCommunityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6F7BF721D30DEE00A055F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F7C0A21D30DEE00A055F4 /* LaunchScreen.storyboard in Resources */,
+				3F6F7C0721D30DEE00A055F4 /* Assets.xcassets in Resources */,
+				3F6F7C0221D30DEE00A055F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C0E21D30DEE00A055F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C1921D30DEE00A055F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6F7BF521D30DEE00A055F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F7BFF21D30DEE00A055F4 /* ViewController.swift in Sources */,
+				3F6F7C0521D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld in Sources */,
+				3F6F7BFD21D30DEE00A055F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C0C21D30DEE00A055F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F7C1521D30DEE00A055F4 /* CocoGameCommunityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6F7C1721D30DEE00A055F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F7C2021D30DEE00A055F4 /* CocoGameCommunityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6F7C1221D30DEE00A055F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6F7BF821D30DEE00A055F4 /* CocoGameCommunity */;
+			targetProxy = 3F6F7C1121D30DEE00A055F4 /* PBXContainerItemProxy */;
+		};
+		3F6F7C1D21D30DEE00A055F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6F7BF821D30DEE00A055F4 /* CocoGameCommunity */;
+			targetProxy = 3F6F7C1C21D30DEE00A055F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6F7C0021D30DEE00A055F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6F7C0121D30DEE00A055F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6F7C0821D30DEE00A055F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6F7C0921D30DEE00A055F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6F7C2221D30DEE00A055F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6F7C2321D30DEE00A055F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6F7C2521D30DEE00A055F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F6F7C2621D30DEE00A055F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F6F7C2821D30DEE00A055F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoGameCommunity.app/CocoGameCommunity";
+			};
+			name = Debug;
+		};
+		3F6F7C2921D30DEE00A055F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoGameCommunity.app/CocoGameCommunity";
+			};
+			name = Release;
+		};
+		3F6F7C2B21D30DEE00A055F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoGameCommunity;
+			};
+			name = Debug;
+		};
+		3F6F7C2C21D30DEE00A055F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoGameCommunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110252.CocoGameCommunityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoGameCommunity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6F7BF421D30DEE00A055F4 /* Build configuration list for PBXProject "CocoGameCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F7C2221D30DEE00A055F4 /* Debug */,
+				3F6F7C2321D30DEE00A055F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6F7C2421D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F7C2521D30DEE00A055F4 /* Debug */,
+				3F6F7C2621D30DEE00A055F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6F7C2721D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F7C2821D30DEE00A055F4 /* Debug */,
+				3F6F7C2921D30DEE00A055F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6F7C2A21D30DEE00A055F4 /* Build configuration list for PBXNativeTarget "CocoGameCommunityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F7C2B21D30DEE00A055F4 /* Debug */,
+				3F6F7C2C21D30DEE00A055F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F6F7C0321D30DEE00A055F4 /* CocoGameCommunity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F6F7C0421D30DEE00A055F4 /* CocoGameCommunity.xcdatamodel */,
+			);
+			currentVersion = 3F6F7C0421D30DEE00A055F4 /* CocoGameCommunity.xcdatamodel */;
+			path = CocoGameCommunity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F6F7BF121D30DEE00A055F4 /* Project object */;
+}
