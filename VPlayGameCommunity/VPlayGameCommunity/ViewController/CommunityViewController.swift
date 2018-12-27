@@ -10,12 +10,14 @@ import UIKit
 
 class CommunityViewController: UIViewController {
 
+    
     override func viewDidLoad() {
+ 
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
-    
 
     /*
     // MARK: - Navigation
@@ -27,4 +29,10 @@ class CommunityViewController: UIViewController {
     }
     */
 
+}
+
+extension CommunityViewController {
+    @IBAction func segmentdControlAction(_ sender: UISegmentedControl) {
+        
+    }
 }
