@@ -22,6 +22,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        initial()
     }
     
     func initial() {
@@ -31,16 +33,20 @@ class LoginViewController: UIViewController {
         imageView.contentMode = .scaleAspectFit
         imageView.image = UIImage(named: "8.png")
         
-        loginButton.layer.cornerRadius = loginButton.bounds.width / 1.2
+        loginButton.layer.cornerRadius = 10
         loginButton.layer.masksToBounds = true
-        registerButton.layer.cornerRadius = registerButton.bounds.width / 1.2
+        registerButton.layer.cornerRadius = 10
         loginButton.layer.masksToBounds = true
         
-        loginButton.titleLabel?.text = "登录"
-        registerButton.titleLabel?.text = "注册"
+        loginButton.setTitle("登录", for: .normal)
+        registerButton.setTitle("注册", for: .normal)
         
         loginButton.addTarget(self, action: #selector(loginBtnAction(_:)), for: .touchDown)
         registerButton.addTarget(self, action: #selector(registerBtnAction(_:)), for: .touchDown)
+        
+        userNameTextFeild.keyboardType = .namePhonePad
+        passwdTextFeild.keyboardType = .numberPad
+        passwdTextFeild.isSecureTextEntry = true
         
         sqlitedb = SQLiteDB.shared
         _ = sqlitedb.openDB()
@@ -57,6 +63,10 @@ class LoginViewController: UIViewController {
         if res.count > 0 {
             user.flag = true
             let alertCtrl = UIAlertController(title: "提醒", message: "登录成功！欢迎来到VPlay游戏社区！", preferredStyle: .alert)
+            present(alertCtrl,animated: true)
+            self.presentingViewController?.dismiss(animated: true, completion: nil)
+        } else {
+            let alertCtrl = UIAlertController(title: "提醒", message: "登录登录！用户名或密码错误！", preferredStyle: .alert)
             present(alertCtrl,animated: true)
         }
         

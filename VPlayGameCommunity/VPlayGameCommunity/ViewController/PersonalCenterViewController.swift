@@ -45,7 +45,9 @@ class PersonalCenterViewController: UIViewController {
     
     func alertUnLogin(_ message: String) {
         let alertCtrl = UIAlertController(title: "提示", message: message, preferredStyle: .alert)
-        let alertLogin = UIAlertAction(title: "是", style: .default, handler: nil)
+        let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
+            self.login()
+        }
         let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
         alertCtrl.addAction(alertLogin)
         alertCtrl.addAction(alertULogin)
@@ -53,8 +55,9 @@ class PersonalCenterViewController: UIViewController {
     }
     
     func login() {
-        let loginView = LoginViewController()
+        let loginView = storyboard?.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
         
+        present(loginView, animated: true)
     }
     
     /*
