@@ -18,7 +18,7 @@ private let SQLITE_TRANSIENT = unsafeBitCast(-1, to:sqlite3_destructor_type.self
 @objc(SQLiteDB)
 class SQLiteDB:NSObject {
 	/// The SQLite database file name - defaults to `data.db`.
-	var DB_NAME = "data.db"
+	var DB_NAME = "DataSource.db"
 	/// Singleton instance for access to the SQLiteDB class
 	static let shared = SQLiteDB()
 	/// Internal name for GCD queue used to execute SQL commands so that all commands are executed sequentially

@@ -14,16 +14,49 @@ class PersonalCenterViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    
     override func viewDidLoad() {
 
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-        imageView.image = UIImage(named: "community.png")
+        
+        setImage()
+        
+        imageView.layer.cornerRadius = imageView.bounds.size.width / 2.0
+        imageView.layer.masksToBounds = true
     }
     
-
+    @IBAction func btnAction(_ sender: UIBarButtonItem) {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.sourceType = .photoLibrary
+        imagePickerController.delegate = self
+        present(imagePickerController, animated: true, completion: nil)
+    }
+    
+    func setImage() {
+        if user.flag {
+            imageView.image = UIImage(named: "\(user.name).png")
+        } else {
+            alertUnLogin("当前账户未登录！有些功能将无法使用！")
+            imageView.image = UIImage(named: "unLogin.png")
+        }
+    }
+    
+    func alertUnLogin(_ message: String) {
+        let alertCtrl = UIAlertController(title: "提示", message: message, preferredStyle: .alert)
+        let alertLogin = UIAlertAction(title: "是", style: .default, handler: nil)
+        let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
+        alertCtrl.addAction(alertLogin)
+        alertCtrl.addAction(alertULogin)
+        present(alertCtrl, animated:true, completion: nil)
+    }
+    
+    func login() {
+        let loginView = LoginViewController()
+        
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -53,5 +86,21 @@ extension PersonalCenterViewController: UITableViewDataSource, UITableViewDelega
         return cell!
     }
     
+}
+
+// ------------------------------------------------------------------------
+// MARK: UIImagePickerControllerDelegate
+extension PersonalCenterViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
     
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage]! as? UIImage {
+            imageView.image = pickedImage
+            
+        }
+        picker.dismiss(animated: true, completion: nil)
+    }
 }

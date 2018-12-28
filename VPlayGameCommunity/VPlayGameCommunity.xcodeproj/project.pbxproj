@@ -17,7 +17,7 @@
 		3F39CEBA21D47C150028BBB1 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CEB921D47C150028BBB1 /* CommunityViewController.swift */; };
 		3F39CEBC21D47C520028BBB1 /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CEBB21D47C520028BBB1 /* PersonalCenterViewController.swift */; };
 		3F39CEC221D49D1B0028BBB1 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CEC121D49D1B0028BBB1 /* FriendViewController.swift */; };
-		3F39CEC521D49F090028BBB1 /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F39CEC321D49F090028BBB1 /* community.png */; };
+		3F39CEC521D49F090028BBB1 /* unLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F39CEC321D49F090028BBB1 /* unLogin.png */; };
 		3F39CEC621D49F090028BBB1 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F39CEC421D49F090028BBB1 /* launch.jpg */; };
 		3F39CECB21D49F5C0028BBB1 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CEC821D49F5C0028BBB1 /* SQLiteDB.swift */; };
 		3F39CECC21D49F5C0028BBB1 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CEC921D49F5C0028BBB1 /* SQLTable.swift */; };
@@ -168,6 +168,8 @@
 		3F8049C721D6124C008DBB0D /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */; };
 		3F8049CB21D61B6B008DBB0D /* RankingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */; };
 		3F8049CD21D61EBD008DBB0D /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */; };
+		3F8049CF21D64279008DBB0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CE21D64279008DBB0D /* LoginViewController.swift */; };
+		3F8049D421D6551A008DBB0D /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049D321D6551A008DBB0D /* login.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,7 +206,7 @@
 		3F39CEB921D47C150028BBB1 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		3F39CEBB21D47C520028BBB1 /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
 		3F39CEC121D49D1B0028BBB1 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
-		3F39CEC321D49F090028BBB1 /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = community.png; path = Resource/community.png; sourceTree = "<group>"; };
+		3F39CEC321D49F090028BBB1 /* unLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unLogin.png; path = Resource/unLogin.png; sourceTree = "<group>"; };
 		3F39CEC421D49F090028BBB1 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = launch.jpg; path = Resource/launch.jpg; sourceTree = "<group>"; };
 		3F39CEC821D49F5C0028BBB1 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = VPlayGameCommunity/SQLite/SQLiteDB.swift; sourceTree = SOURCE_ROOT; };
 		3F39CEC921D49F5C0028BBB1 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = VPlayGameCommunity/SQLite/SQLTable.swift; sourceTree = SOURCE_ROOT; };
@@ -356,6 +358,9 @@
 		3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
 		3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingListViewController.swift; sourceTree = "<group>"; };
 		3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		3F8049CE21D64279008DBB0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F8049D221D65084008DBB0D /* DataSource.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = DataSource.db; path = VPlayGameCommunity/SQLite/DataSource.db; sourceTree = SOURCE_ROOT; };
+		3F8049D321D6551A008DBB0D /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = login.jpg; path = Resource/login.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,12 +411,12 @@
 		3F39CE8321D477760028BBB1 /* VPlayGameCommunity */ = {
 			isa = PBXGroup;
 			children = (
+				3F39CEB521D4778B0028BBB1 /* Appdelegate */,
 				3F39CEC721D49F330028BBB1 /* SQLite */,
 				3F8049C321D5F053008DBB0D /* Model */,
 				3F39CEB821D477CE0028BBB1 /* ViewController */,
 				3F39CEB721D477BB0028BBB1 /* Resource */,
 				3F39CEB621D477A00028BBB1 /* StoryBoard */,
-				3F39CEB521D4778B0028BBB1 /* Appdelegate */,
 				3F39CE8E21D477770028BBB1 /* Assets.xcassets */,
 				3F39CE9321D477770028BBB1 /* Info.plist */,
 				3F39CE8B21D477760028BBB1 /* VPlayGameCommunity.xcdatamodeld */,
@@ -461,7 +466,8 @@
 				3F8048BE21D5B887008DBB0D /* 图标 */,
 				3F8048E421D5B887008DBB0D /* 游戏 */,
 				3F80491A21D5B887008DBB0D /* app图标 */,
-				3F39CEC321D49F090028BBB1 /* community.png */,
+				3F39CEC321D49F090028BBB1 /* unLogin.png */,
+				3F8049D321D6551A008DBB0D /* login.jpg */,
 				3F39CEC421D49F090028BBB1 /* launch.jpg */,
 			);
 			name = Resource;
@@ -484,6 +490,7 @@
 				3F80489E21D5B7D7008DBB0D /* RecommendViewController.swift */,
 				3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */,
 				3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */,
+				3F8049CE21D64279008DBB0D /* LoginViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -494,6 +501,7 @@
 				3F39CECA21D49F5C0028BBB1 /* Bridging-Header.h */,
 				3F39CEC821D49F5C0028BBB1 /* SQLiteDB.swift */,
 				3F39CEC921D49F5C0028BBB1 /* SQLTable.swift */,
+				3F8049D221D65084008DBB0D /* DataSource.db */,
 			);
 			name = SQLite;
 			path = "New Group";
@@ -991,7 +999,7 @@
 				3F8049B821D5C940008DBB0D /* 神庙逃亡图标.png in Resources */,
 				3F80498E21D5B888008DBB0D /* 6.png in Resources */,
 				3F80492721D5B887008DBB0D /* luntan03.png in Resources */,
-				3F39CEC521D49F090028BBB1 /* community.png in Resources */,
+				3F39CEC521D49F090028BBB1 /* unLogin.png in Resources */,
 				3F80493C21D5B887008DBB0D /* luntan8.png in Resources */,
 				3F80496721D5B888008DBB0D /* 开心消消乐.png in Resources */,
 				3F80495321D5B887008DBB0D /* women-1.png in Resources */,
@@ -1037,6 +1045,7 @@
 				3F80499121D5B888008DBB0D /* 9.png in Resources */,
 				3F80494121D5B887008DBB0D /* luntan-1.png in Resources */,
 				3F80494921D5B887008DBB0D /* huizhang-1.png in Resources */,
+				3F8049D421D6551A008DBB0D /* login.jpg in Resources */,
 				3F80498321D5B888008DBB0D /* 彩虹六号.txt in Resources */,
 				3F39CE8F21D477770028BBB1 /* Assets.xcassets in Resources */,
 				3F80498921D5B888008DBB0D /* 1.png in Resources */,
@@ -1134,6 +1143,7 @@
 				3F80489321D5A981008DBB0D /* DetailViewController.swift in Sources */,
 				3F39CECE21D4A1410028BBB1 /* GameLibraryViewController.swift in Sources */,
 				3F39CE8D21D477760028BBB1 /* VPlayGameCommunity.xcdatamodeld in Sources */,
+				3F8049CF21D64279008DBB0D /* LoginViewController.swift in Sources */,
 				3F8049C721D6124C008DBB0D /* CommunityTableViewCell.swift in Sources */,
 				3F39CFC021D4F4760028BBB1 /* CellFlowLayout.swift in Sources */,
 				3F39CFC221D4F4760028BBB1 /* CycleView.swift in Sources */,
