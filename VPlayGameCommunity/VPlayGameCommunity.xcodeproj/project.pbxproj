@@ -31,7 +31,6 @@
 		3F80489721D5AFD9008DBB0D /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80489621D5AFD9008DBB0D /* FriendDetailViewController.swift */; };
 		3F80489921D5B06C008DBB0D /* TalkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80489821D5B06C008DBB0D /* TalkDetailViewController.swift */; };
 		3F80489B21D5B17A008DBB0D /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80489A21D5B17A008DBB0D /* SetViewController.swift */; };
-		3F80489D21D5B7B4008DBB0D /* RankingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80489C21D5B7B4008DBB0D /* RankingListViewController.swift */; };
 		3F80489F21D5B7D7008DBB0D /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80489E21D5B7D7008DBB0D /* RecommendViewController.swift */; };
 		3F80492421D5B887008DBB0D /* LuntanPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8048A121D5B886008DBB0D /* LuntanPlist.plist */; };
 		3F80492521D5B887008DBB0D /* luntan01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8048A421D5B886008DBB0D /* luntan01.png */; };
@@ -165,6 +164,10 @@
 		3F8049C021D5C940008DBB0D /* 刺激战场图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049AB21D5C940008DBB0D /* 刺激战场图标.png */; };
 		3F8049C121D5C940008DBB0D /* 炉石传说图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049AC21D5C940008DBB0D /* 炉石传说图标.png */; };
 		3F8049C221D5C940008DBB0D /* 阴阳师图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049AD21D5C940008DBB0D /* 阴阳师图标.png */; };
+		3F8049C521D5F0AB008DBB0D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049C421D5F0AB008DBB0D /* Global.swift */; };
+		3F8049C721D6124C008DBB0D /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */; };
+		3F8049CB21D61B6B008DBB0D /* RankingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */; };
+		3F8049CD21D61EBD008DBB0D /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,7 +219,6 @@
 		3F80489621D5AFD9008DBB0D /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 		3F80489821D5B06C008DBB0D /* TalkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkDetailViewController.swift; sourceTree = "<group>"; };
 		3F80489A21D5B17A008DBB0D /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
-		3F80489C21D5B7B4008DBB0D /* RankingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingListViewController.swift; sourceTree = "<group>"; };
 		3F80489E21D5B7D7008DBB0D /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		3F8048A121D5B886008DBB0D /* LuntanPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LuntanPlist.plist; sourceTree = "<group>"; };
 		3F8048A421D5B886008DBB0D /* luntan01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luntan01.png; sourceTree = "<group>"; };
@@ -350,6 +352,10 @@
 		3F8049AB21D5C940008DBB0D /* 刺激战场图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刺激战场图标.png"; sourceTree = "<group>"; };
 		3F8049AC21D5C940008DBB0D /* 炉石传说图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "炉石传说图标.png"; sourceTree = "<group>"; };
 		3F8049AD21D5C940008DBB0D /* 阴阳师图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴阳师图标.png"; sourceTree = "<group>"; };
+		3F8049C421D5F0AB008DBB0D /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingListViewController.swift; sourceTree = "<group>"; };
+		3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,7 +407,7 @@
 			isa = PBXGroup;
 			children = (
 				3F39CEC721D49F330028BBB1 /* SQLite */,
-				3F39CFBC21D4F4760028BBB1 /* CycleView */,
+				3F8049C321D5F053008DBB0D /* Model */,
 				3F39CEB821D477CE0028BBB1 /* ViewController */,
 				3F39CEB721D477BB0028BBB1 /* Resource */,
 				3F39CEB621D477A00028BBB1 /* StoryBoard */,
@@ -464,6 +470,7 @@
 		3F39CEB821D477CE0028BBB1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */,
 				3F39CEB921D47C150028BBB1 /* CommunityViewController.swift */,
 				3F39CEBB21D47C520028BBB1 /* PersonalCenterViewController.swift */,
 				3F39CEC121D49D1B0028BBB1 /* FriendViewController.swift */,
@@ -474,8 +481,9 @@
 				3F80489421D5AF9C008DBB0D /* PersonalDetailViewController.swift */,
 				3F80489821D5B06C008DBB0D /* TalkDetailViewController.swift */,
 				3F80489A21D5B17A008DBB0D /* SetViewController.swift */,
-				3F80489C21D5B7B4008DBB0D /* RankingListViewController.swift */,
 				3F80489E21D5B7D7008DBB0D /* RecommendViewController.swift */,
+				3F8049C621D6124C008DBB0D /* CommunityTableViewCell.swift */,
+				3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -849,6 +857,15 @@
 			path = "手机游戏图标";
 			sourceTree = "<group>";
 		};
+		3F8049C321D5F053008DBB0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F39CFBC21D4F4760028BBB1 /* CycleView */,
+				3F8049C421D5F0AB008DBB0D /* Global.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1117,21 +1134,24 @@
 				3F80489321D5A981008DBB0D /* DetailViewController.swift in Sources */,
 				3F39CECE21D4A1410028BBB1 /* GameLibraryViewController.swift in Sources */,
 				3F39CE8D21D477760028BBB1 /* VPlayGameCommunity.xcdatamodeld in Sources */,
+				3F8049C721D6124C008DBB0D /* CommunityTableViewCell.swift in Sources */,
 				3F39CFC021D4F4760028BBB1 /* CellFlowLayout.swift in Sources */,
 				3F39CFC221D4F4760028BBB1 /* CycleView.swift in Sources */,
+				3F8049C521D5F0AB008DBB0D /* Global.swift in Sources */,
 				3F39CECC21D49F5C0028BBB1 /* SQLTable.swift in Sources */,
 				3F39CEBC21D47C520028BBB1 /* PersonalCenterViewController.swift in Sources */,
 				3F80489921D5B06C008DBB0D /* TalkDetailViewController.swift in Sources */,
 				3F39CE8521D477760028BBB1 /* AppDelegate.swift in Sources */,
+				3F8049CB21D61B6B008DBB0D /* RankingListViewController.swift in Sources */,
 				3F80489721D5AFD9008DBB0D /* FriendDetailViewController.swift in Sources */,
 				3F39CFC121D4F4760028BBB1 /* CycleCell.swift in Sources */,
-				3F80489D21D5B7B4008DBB0D /* RankingListViewController.swift in Sources */,
 				3F80489521D5AF9C008DBB0D /* PersonalDetailViewController.swift in Sources */,
 				3F39CECB21D49F5C0028BBB1 /* SQLiteDB.swift in Sources */,
 				3F80489F21D5B7D7008DBB0D /* RecommendViewController.swift in Sources */,
 				3F80489121D5A8EF008DBB0D /* ClassViewController.swift in Sources */,
 				3F80489B21D5B17A008DBB0D /* SetViewController.swift in Sources */,
 				3F39CEBA21D47C150028BBB1 /* CommunityViewController.swift in Sources */,
+				3F8049CD21D61EBD008DBB0D /* RankingTableViewCell.swift in Sources */,
 				3F39CEC221D49D1B0028BBB1 /* FriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

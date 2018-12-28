@@ -10,12 +10,28 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var name: String!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initial()
     }
     
+    func initial() {
+        print("\(name!)")
+        let path = Bundle.main.path(forAuxiliaryExecutable: "\(name!).txt")
+        print("\(path!)")
+        let text = try! String(contentsOfFile: path!)
+        imageView.image = UIImage(named: "\(String(describing: name!)).png")
+        imageView.contentMode = .scaleAspectFill
+        textView.font = UIFont.systemFont(ofSize: 24)
+        textView.text = text
+    }
 
     /*
     // MARK: - Navigation

@@ -6,7 +6,7 @@
 		<key>xiaotu</key>
 		<string>luntan01.png</string>
 		<key>text</key>
-		<string>luntanlist.txt</string>
+		<string>luntanlist01.txt</string>
 		<key>xiangqing</key>
 		<string>luntan1.png</string>
 	</dict>
@@ -36,11 +36,11 @@
 	</dict>
 	<dict>
 		<key>xiaotu</key>
-		<string>luntan04.png</string>
+		<string>luntan05.png</string>
 		<key>text</key>
-		<string>luntanlist04.txt</string>
+		<string>luntanlist05.txt</string>
 		<key>xiangqing</key>
-		<string>luntan4.png</string>
+		<string>luntan5.png</string>
 	</dict>
 	<dict>
 		<key>xiaotu</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>xiaotu</key>
-		<string>luntan07.png</string>
+		<string>彩虹六号.png</string>
 		<key>text</key>
 		<string>luntanlist07.txt</string>
 		<key>xiangqing</key>

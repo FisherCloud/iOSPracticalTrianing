@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+	<key>MOBA</key>
 	<array>
-		<array>
-			<string>DOTA</string>
-		</array>
-		<array>
-			<string>星际争霸</string>
-		</array>
-		<array>
-			<string>暗黑破坏神</string>
-		</array>
-		<array>
-			<string>英雄联盟</string>
-		</array>
+		<string>DOTA</string>
+		<string>星际争霸</string>
+		<string>暗黑破坏神</string>
+		<string>英雄联盟</string>
 	</array>
+	<key>休闲益智</key>
 	<array>
 		<string>人类一败涂地</string>
 		<string>别踩白块儿</string>
 		<string>天际线</string>
-		<string>小黄人别跑</string>
+		<string>小黄人快跑</string>
 		<string>开心消消乐</string>
 		<string>狂扁小朋友</string>
 		<string>神庙逃亡</string>
 	</array>
+	<key>射击游戏</key>
 	<array>
 		<string>CSGO</string>
 		<string>H1Z1</string>
@@ -33,11 +28,12 @@
 		<string>彩虹六号</string>
 		<string>绝地求生</string>
 	</array>
+	<key>手机游戏</key>
 	<array>
 		<string>fate</string>
 		<string>刺激战场</string>
 		<string>炉石传说</string>
 		<string>阴阳师</string>
 	</array>
-</array>
+</dict>
 </plist>

@@ -14,10 +14,6 @@ class GameLibraryViewController: UIViewController {
     
     var arrImageName = ["英雄联盟.png", "小黄人快跑.png", "守望先锋.png", "刺激战场.png"]
     
-    var index: String!
-    
-    var cellBuf: UITableViewCell?
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -33,28 +29,15 @@ class GameLibraryViewController: UIViewController {
         tableView.tableHeaderView = cycleView
     }
 
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        let NextView = segue.destination as! RecommendViewController
-        
-        switch index {
-        case "Optional(\"热门游戏\")":
-            NextView.index = "热门游戏"
-        case "Optional(\"最新上架\")":
-            NextView.index = "最新上架"
-        case "Optional(\"促销游戏\")":
-            NextView.index = "促销游戏"
-        default:
-            NextView.index = ""
-        }
     }
- 
-
+     */
 }
 
 extension GameLibraryViewController: CycleViewDelegate {
@@ -86,7 +69,12 @@ extension GameLibraryViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        index = tableView.cellForRow(at: indexPath)?.textLabel?.text
-        //print("\(String(describing: index))")
+        
+        let recommendView = RecommendViewController()
+        
+        recommendView.index = String(describing: (tableView.cellForRow(at: indexPath)?.textLabel?.text)!)
+        recommendView.initial()
+        self.navigationController?.pushViewController(recommendView, animated: true)
+        
     }
 }

@@ -10,13 +10,22 @@ import UIKit
 
 class TalkDetailViewController: UIViewController {
 
+    var image: UIImage!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initial()
+        
     }
     
-
+    func initial() {
+        imageView.image = image
+    }
+    
     /*
     // MARK: - Navigation
 
