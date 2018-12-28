@@ -8,13 +8,19 @@
 
 import UIKit
 
+protocol flushDelegate {
+    func flushUserInfo()
+}
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var userNameTextFeild: UITextField!
+    @IBOutlet weak var idTextFeild: UITextField!
     @IBOutlet weak var passwdTextFeild: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
+    
+    public var delegate: flushDelegate?
     
     var sqlitedb: SQLiteDB!
     
@@ -44,7 +50,7 @@ class LoginViewController: UIViewController {
         loginButton.addTarget(self, action: #selector(loginBtnAction(_:)), for: .touchDown)
         registerButton.addTarget(self, action: #selector(registerBtnAction(_:)), for: .touchDown)
         
-        userNameTextFeild.keyboardType = .namePhonePad
+        idTextFeild.keyboardType = .numberPad
         passwdTextFeild.keyboardType = .numberPad
         passwdTextFeild.isSecureTextEntry = true
         
@@ -53,21 +59,41 @@ class LoginViewController: UIViewController {
     }
     
     @objc func loginBtnAction(_ sender: UIButton) {
-        let username = userNameTextFeild.text
+        let id = idTextFeild.text
         let password = passwdTextFeild.text
         
-        let sql = "select * from User where name = '\(username!)' and password = '\(password!)'"
+        let sql = "select * from User where id = '\(id!)' and password = '\(password!)'"
         
         let res = sqlitedb.query(sql: sql)
+        
+        print(res)
+        
+//        let r = sqlitedb.query(sql: "select * from User;")
+//        print(r)
         
         if res.count > 0 {
             user.flag = true
             let alertCtrl = UIAlertController(title: "提醒", message: "登录成功！欢迎来到VPlay游戏社区！", preferredStyle: .alert)
             present(alertCtrl,animated: true)
+            
+            user.id = id!
+            for item in res {
+                user.name = item["name"] as! String
+                user.sex = (item["sex"] as! String) == "男" ? Sex.female : Sex.male
+                user.grade = item["grade"] as! Int
+                user.age = item["age"] as! Int
+            }
+            
+            if delegate != nil {
+                delegate?.flushUserInfo()
+            }
+            
             self.presentingViewController?.dismiss(animated: true, completion: nil)
         } else {
-            let alertCtrl = UIAlertController(title: "提醒", message: "登录登录！用户名或密码错误！", preferredStyle: .alert)
+            let alertCtrl = UIAlertController(title: "提醒", message: "登录登录！账号或密码错误！", preferredStyle: .alert)
             present(alertCtrl,animated: true)
+            sleep(1)
+            dismiss(animated: true, completion: nil)
         }
         
     }

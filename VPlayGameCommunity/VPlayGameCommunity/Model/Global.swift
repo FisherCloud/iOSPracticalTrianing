@@ -41,6 +41,7 @@ class Global {
     
     struct User {
         var name: String = "请登录"
+        var id: String = "2016110000"
         var sex: Sex = Sex.female
         var age: Int = 0
         var grade: Int = 1

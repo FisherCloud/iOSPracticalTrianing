@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>手游排行榜</key>
+	<dict>
+		<key>仙剑传说RO：守护永恒的爱</key>
+		<string>仙剑传说RO：守护永恒的爱rank.png</string>
+		<key>冒险岛手游</key>
+		<string>冒险岛手游rank.png</string>
+		<key>天龙八部手游</key>
+		<string>天龙八部手游rank.png</string>
+		<key>崩坏3</key>
+		<string>崩坏3rank.png</string>
+		<key>我的世界</key>
+		<string>我的世界rank.png</string>
+		<key>战斗吧剑灵</key>
+		<string>战斗吧剑灵rank.png</string>
+		<key>炉石传说</key>
+		<string>炉石传说rank.png</string>
+		<key>王者荣耀</key>
+		<string>王者荣耀rank.png</string>
+		<key>皇室战争</key>
+		<string>皇室战争rank.png</string>
+		<key>穿越火线：枪战王者</key>
+		<string>穿越火线：枪战王者rank.png</string>
+		<key>诺亚传说手游</key>
+		<string>诺亚传说手游rank.png</string>
+		<key>部落冲突</key>
+		<string>部落冲突rank.png</string>
+	</dict>
+	<key>端游排行榜</key>
+	<dict>
+		<key>剑灵</key>
+		<string>剑灵rank.png</string>
+		<key>剑网3</key>
+		<string>剑网3rank.png</string>
+		<key>地下城与勇士</key>
+		<string>地下城与勇士rank.png</string>
+		<key>新天龙八部</key>
+		<string>新天龙八部rank.png</string>
+		<key>最终幻想14</key>
+		<string>最终幻想14rank.png</string>
+		<key>梦幻西游</key>
+		<string>梦幻西游rank.png</string>
+		<key>流放之路</key>
+		<string>流放之路rank.png</string>
+		<key>炉石传说</key>
+		<string>炉石传说2rank.png</string>
+		<key>穿越火线</key>
+		<string>穿越火线rank.png</string>
+		<key>英雄联盟</key>
+		<string>英雄联盟rank.png</string>
+		<key>逆水寒</key>
+		<string>逆水寒rank.png</string>
+		<key>魔兽世界</key>
+		<string>魔兽世界rank.png</string>
+	</dict>
+</dict>
+</plist>

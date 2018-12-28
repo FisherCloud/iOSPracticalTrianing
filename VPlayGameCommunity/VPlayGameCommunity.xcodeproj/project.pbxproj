@@ -169,9 +169,37 @@
 		3F8049CF21D64279008DBB0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049CE21D64279008DBB0D /* LoginViewController.swift */; };
 		3F8049D421D6551A008DBB0D /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049D321D6551A008DBB0D /* login.jpg */; };
 		3F8049DB21D65E86008DBB0D /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049D721D65E86008DBB0D /* SQLTable.swift */; };
-		3F8049DC21D65E86008DBB0D /* DataSource.db in Resources */ = {isa = PBXBuildFile; fileRef = 3F8049D921D65E86008DBB0D /* DataSource.db */; };
 		3F8049DD21D65E86008DBB0D /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049DA21D65E86008DBB0D /* SQLiteDB.swift */; };
 		3F8049DF21D665D6008DBB0D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8049DE21D665D6008DBB0D /* RegisterViewController.swift */; };
+		9542618821D674E00074CB2F /* ClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542618721D674E00074CB2F /* ClassDetailViewController.swift */; };
+		954261A821D679550074CB2F /* 仙境传说RO：守护永恒的爱rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542618E21D679550074CB2F /* 仙境传说RO：守护永恒的爱rank.png */; };
+		954261A921D679550074CB2F /* 冒险岛手游rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542618F21D679550074CB2F /* 冒险岛手游rank.png */; };
+		954261AA21D679550074CB2F /* 天龙八部手游rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619021D679550074CB2F /* 天龙八部手游rank.png */; };
+		954261AB21D679550074CB2F /* 崩坏3rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619121D679550074CB2F /* 崩坏3rank.png */; };
+		954261AC21D679550074CB2F /* 我的世界rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619221D679550074CB2F /* 我的世界rank.png */; };
+		954261AD21D679550074CB2F /* 战斗吧剑灵rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619321D679550074CB2F /* 战斗吧剑灵rank.png */; };
+		954261AE21D679550074CB2F /* 炉石传说rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619421D679550074CB2F /* 炉石传说rank.png */; };
+		954261AF21D679550074CB2F /* 王者荣耀rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619521D679550074CB2F /* 王者荣耀rank.png */; };
+		954261B021D679550074CB2F /* 皇室战争rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619621D679550074CB2F /* 皇室战争rank.png */; };
+		954261B121D679550074CB2F /* 穿越火线：枪战王者rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619721D679550074CB2F /* 穿越火线：枪战王者rank.png */; };
+		954261B221D679550074CB2F /* 诺亚传说手游rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619821D679550074CB2F /* 诺亚传说手游rank.png */; };
+		954261B321D679550074CB2F /* 部落冲突rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619921D679550074CB2F /* 部落冲突rank.png */; };
+		954261B421D679550074CB2F /* 剑灵rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619B21D679550074CB2F /* 剑灵rank.png */; };
+		954261B521D679550074CB2F /* 剑网3rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619C21D679550074CB2F /* 剑网3rank.png */; };
+		954261B621D679550074CB2F /* 地下城与勇士rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619D21D679550074CB2F /* 地下城与勇士rank.png */; };
+		954261B721D679550074CB2F /* 新天龙八部rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619E21D679550074CB2F /* 新天龙八部rank.png */; };
+		954261B821D679550074CB2F /* 最终幻想14rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9542619F21D679550074CB2F /* 最终幻想14rank.png */; };
+		954261B921D679550074CB2F /* 梦幻西游rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A021D679550074CB2F /* 梦幻西游rank.png */; };
+		954261BA21D679550074CB2F /* 流放之路rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A121D679550074CB2F /* 流放之路rank.png */; };
+		954261BB21D679550074CB2F /* 炉石传说2rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A221D679550074CB2F /* 炉石传说2rank.png */; };
+		954261BC21D679550074CB2F /* 穿越火线rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A321D679550074CB2F /* 穿越火线rank.png */; };
+		954261BD21D679550074CB2F /* 英雄联盟rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A421D679550074CB2F /* 英雄联盟rank.png */; };
+		954261BE21D679550074CB2F /* 逆水寒rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A521D679550074CB2F /* 逆水寒rank.png */; };
+		954261BF21D679550074CB2F /* 魔兽世界rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 954261A621D679550074CB2F /* 魔兽世界rank.png */; };
+		954261C121D67AB70074CB2F /* RankingPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 954261C021D67AB70074CB2F /* RankingPList.plist */; };
+		954261C721D68EF10074CB2F /* jsondata.json in Resources */ = {isa = PBXBuildFile; fileRef = 954261C621D68EF10074CB2F /* jsondata.json */; };
+		954261C921D6A0E00074CB2F /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954261C821D6A0E00074CB2F /* AddFriendViewController.swift */; };
+		954261CC21D6ABCB0074CB2F /* DataSource.db in Resources */ = {isa = PBXBuildFile; fileRef = 954261CB21D6ABCB0074CB2F /* DataSource.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,9 +389,37 @@
 		3F8049D321D6551A008DBB0D /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = login.jpg; path = Resource/login.jpg; sourceTree = "<group>"; };
 		3F8049D721D65E86008DBB0D /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = VPlayGameCommunity/SQLite/SQLTable.swift; sourceTree = SOURCE_ROOT; };
 		3F8049D821D65E86008DBB0D /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "VPlayGameCommunity/SQLite/Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		3F8049D921D65E86008DBB0D /* DataSource.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = DataSource.db; path = VPlayGameCommunity/SQLite/DataSource.db; sourceTree = SOURCE_ROOT; };
 		3F8049DA21D65E86008DBB0D /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = VPlayGameCommunity/SQLite/SQLiteDB.swift; sourceTree = SOURCE_ROOT; };
 		3F8049DE21D665D6008DBB0D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9542618721D674E00074CB2F /* ClassDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailViewController.swift; sourceTree = "<group>"; };
+		9542618E21D679550074CB2F /* 仙境传说RO：守护永恒的爱rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "仙境传说RO：守护永恒的爱rank.png"; sourceTree = "<group>"; };
+		9542618F21D679550074CB2F /* 冒险岛手游rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冒险岛手游rank.png"; sourceTree = "<group>"; };
+		9542619021D679550074CB2F /* 天龙八部手游rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天龙八部手游rank.png"; sourceTree = "<group>"; };
+		9542619121D679550074CB2F /* 崩坏3rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "崩坏3rank.png"; sourceTree = "<group>"; };
+		9542619221D679550074CB2F /* 我的世界rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的世界rank.png"; sourceTree = "<group>"; };
+		9542619321D679550074CB2F /* 战斗吧剑灵rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "战斗吧剑灵rank.png"; sourceTree = "<group>"; };
+		9542619421D679550074CB2F /* 炉石传说rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "炉石传说rank.png"; sourceTree = "<group>"; };
+		9542619521D679550074CB2F /* 王者荣耀rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王者荣耀rank.png"; sourceTree = "<group>"; };
+		9542619621D679550074CB2F /* 皇室战争rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "皇室战争rank.png"; sourceTree = "<group>"; };
+		9542619721D679550074CB2F /* 穿越火线：枪战王者rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "穿越火线：枪战王者rank.png"; sourceTree = "<group>"; };
+		9542619821D679550074CB2F /* 诺亚传说手游rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "诺亚传说手游rank.png"; sourceTree = "<group>"; };
+		9542619921D679550074CB2F /* 部落冲突rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "部落冲突rank.png"; sourceTree = "<group>"; };
+		9542619B21D679550074CB2F /* 剑灵rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "剑灵rank.png"; sourceTree = "<group>"; };
+		9542619C21D679550074CB2F /* 剑网3rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "剑网3rank.png"; sourceTree = "<group>"; };
+		9542619D21D679550074CB2F /* 地下城与勇士rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地下城与勇士rank.png"; sourceTree = "<group>"; };
+		9542619E21D679550074CB2F /* 新天龙八部rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新天龙八部rank.png"; sourceTree = "<group>"; };
+		9542619F21D679550074CB2F /* 最终幻想14rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最终幻想14rank.png"; sourceTree = "<group>"; };
+		954261A021D679550074CB2F /* 梦幻西游rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梦幻西游rank.png"; sourceTree = "<group>"; };
+		954261A121D679550074CB2F /* 流放之路rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "流放之路rank.png"; sourceTree = "<group>"; };
+		954261A221D679550074CB2F /* 炉石传说2rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "炉石传说2rank.png"; sourceTree = "<group>"; };
+		954261A321D679550074CB2F /* 穿越火线rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "穿越火线rank.png"; sourceTree = "<group>"; };
+		954261A421D679550074CB2F /* 英雄联盟rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "英雄联盟rank.png"; sourceTree = "<group>"; };
+		954261A521D679550074CB2F /* 逆水寒rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "逆水寒rank.png"; sourceTree = "<group>"; };
+		954261A621D679550074CB2F /* 魔兽世界rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "魔兽世界rank.png"; sourceTree = "<group>"; };
+		954261C021D67AB70074CB2F /* RankingPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RankingPList.plist; sourceTree = "<group>"; };
+		954261C621D68EF10074CB2F /* jsondata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsondata.json; sourceTree = "<group>"; };
+		954261C821D6A0E00074CB2F /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		954261CB21D6ABCB0074CB2F /* DataSource.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = DataSource.db; path = VPlayGameCommunity/SQLite/DataSource.db; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +538,7 @@
 				3F39CECD21D4A1410028BBB1 /* GameLibraryViewController.swift */,
 				3F80489E21D5B7D7008DBB0D /* RecommendViewController.swift */,
 				3F80489021D5A8EF008DBB0D /* ClassViewController.swift */,
+				9542618721D674E00074CB2F /* ClassDetailViewController.swift */,
 				3F80489221D5A981008DBB0D /* DetailViewController.swift */,
 				3F8049CC21D61EBD008DBB0D /* RankingTableViewCell.swift */,
 				3F8049CA21D61B6B008DBB0D /* RankingListViewController.swift */,
@@ -495,6 +552,7 @@
 				3F80489A21D5B17A008DBB0D /* SetViewController.swift */,
 				3F8049CE21D64279008DBB0D /* LoginViewController.swift */,
 				3F8049DE21D665D6008DBB0D /* RegisterViewController.swift */,
+				954261C821D6A0E00074CB2F /* AddFriendViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -652,6 +710,7 @@
 			children = (
 				3F8048E521D5B887008DBB0D /* GamePList.plist */,
 				3F80499221D5C6FF008DBB0D /* IntroducePList.plist */,
+				9542618B21D679550074CB2F /* 游戏排行榜 */,
 				3F80499421D5C940008DBB0D /* 游戏图标 */,
 				3F8048E621D5B887008DBB0D /* 游戏介绍图 */,
 				3F80490021D5B887008DBB0D /* 游戏介绍文本 */,
@@ -869,13 +928,62 @@
 		3F8049D621D65E6F008DBB0D /* SQLite */ = {
 			isa = PBXGroup;
 			children = (
+				954261CB21D6ABCB0074CB2F /* DataSource.db */,
 				3F8049D821D65E86008DBB0D /* Bridging-Header.h */,
-				3F8049D921D65E86008DBB0D /* DataSource.db */,
 				3F8049DA21D65E86008DBB0D /* SQLiteDB.swift */,
 				3F8049D721D65E86008DBB0D /* SQLTable.swift */,
 			);
 			name = SQLite;
 			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		9542618B21D679550074CB2F /* 游戏排行榜 */ = {
+			isa = PBXGroup;
+			children = (
+				954261C621D68EF10074CB2F /* jsondata.json */,
+				954261C021D67AB70074CB2F /* RankingPList.plist */,
+				9542618D21D679550074CB2F /* 手游排行榜 */,
+				9542619A21D679550074CB2F /* 端游排行榜 */,
+			);
+			path = "游戏排行榜";
+			sourceTree = "<group>";
+		};
+		9542618D21D679550074CB2F /* 手游排行榜 */ = {
+			isa = PBXGroup;
+			children = (
+				9542618E21D679550074CB2F /* 仙境传说RO：守护永恒的爱rank.png */,
+				9542618F21D679550074CB2F /* 冒险岛手游rank.png */,
+				9542619021D679550074CB2F /* 天龙八部手游rank.png */,
+				9542619121D679550074CB2F /* 崩坏3rank.png */,
+				9542619221D679550074CB2F /* 我的世界rank.png */,
+				9542619321D679550074CB2F /* 战斗吧剑灵rank.png */,
+				9542619421D679550074CB2F /* 炉石传说rank.png */,
+				9542619521D679550074CB2F /* 王者荣耀rank.png */,
+				9542619621D679550074CB2F /* 皇室战争rank.png */,
+				9542619721D679550074CB2F /* 穿越火线：枪战王者rank.png */,
+				9542619821D679550074CB2F /* 诺亚传说手游rank.png */,
+				9542619921D679550074CB2F /* 部落冲突rank.png */,
+			);
+			path = "手游排行榜";
+			sourceTree = "<group>";
+		};
+		9542619A21D679550074CB2F /* 端游排行榜 */ = {
+			isa = PBXGroup;
+			children = (
+				9542619B21D679550074CB2F /* 剑灵rank.png */,
+				9542619C21D679550074CB2F /* 剑网3rank.png */,
+				9542619D21D679550074CB2F /* 地下城与勇士rank.png */,
+				9542619E21D679550074CB2F /* 新天龙八部rank.png */,
+				9542619F21D679550074CB2F /* 最终幻想14rank.png */,
+				954261A021D679550074CB2F /* 梦幻西游rank.png */,
+				954261A121D679550074CB2F /* 流放之路rank.png */,
+				954261A221D679550074CB2F /* 炉石传说2rank.png */,
+				954261A321D679550074CB2F /* 穿越火线rank.png */,
+				954261A421D679550074CB2F /* 英雄联盟rank.png */,
+				954261A521D679550074CB2F /* 逆水寒rank.png */,
+				954261A621D679550074CB2F /* 魔兽世界rank.png */,
+			);
+			path = "端游排行榜";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -983,9 +1091,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8049BE21D5C940008DBB0D /* 绝地求生图标.png in Resources */,
+				954261B721D679550074CB2F /* 新天龙八部rank.png in Resources */,
 				3F80493821D5B887008DBB0D /* luntan4.png in Resources */,
+				954261B421D679550074CB2F /* 剑灵rank.png in Resources */,
 				3F8049BC21D5C940008DBB0D /* 守望先锋图标.png in Resources */,
 				3F80495D21D5B887008DBB0D /* smile.png in Resources */,
+				954261C121D67AB70074CB2F /* RankingPList.plist in Resources */,
 				3F80498621D5B888008DBB0D /* 刺激战场.txt in Resources */,
 				3F39CE9221D477770028BBB1 /* LaunchScreen.storyboard in Resources */,
 				3F8049BF21D5C940008DBB0D /* fate图标.png in Resources */,
@@ -997,13 +1108,16 @@
 				3F80498F21D5B888008DBB0D /* 7.png in Resources */,
 				3F80493B21D5B887008DBB0D /* luntan7.png in Resources */,
 				3F39CEC621D49F090028BBB1 /* launch.jpg in Resources */,
+				954261BE21D679550074CB2F /* 逆水寒rank.png in Resources */,
 				3F80496921D5B888008DBB0D /* 神庙逃亡.png in Resources */,
+				954261C721D68EF10074CB2F /* jsondata.json in Resources */,
 				3F80494F21D5B887008DBB0D /* shezhi-1.png in Resources */,
 				3F80498221D5B888008DBB0D /* 守望先锋.txt in Resources */,
 				3F8049B821D5C940008DBB0D /* 神庙逃亡图标.png in Resources */,
+				954261BF21D679550074CB2F /* 魔兽世界rank.png in Resources */,
 				3F80498E21D5B888008DBB0D /* 6.png in Resources */,
-				3F8049DC21D65E86008DBB0D /* DataSource.db in Resources */,
 				3F80492721D5B887008DBB0D /* luntan03.png in Resources */,
+				954261AF21D679550074CB2F /* 王者荣耀rank.png in Resources */,
 				3F39CEC521D49F090028BBB1 /* unLogin.png in Resources */,
 				3F80493C21D5B887008DBB0D /* luntan8.png in Resources */,
 				3F80496721D5B888008DBB0D /* 开心消消乐.png in Resources */,
@@ -1013,6 +1127,7 @@
 				3F80494A21D5B887008DBB0D /* huizhang-2.png in Resources */,
 				3F80495E21D5B887008DBB0D /* GamePList.plist in Resources */,
 				3F80496C21D5B888008DBB0D /* 使命召唤.png in Resources */,
+				954261AE21D679550074CB2F /* 炉石传说rank.png in Resources */,
 				3F80492B21D5B887008DBB0D /* luntan07.png in Resources */,
 				3F80492621D5B887008DBB0D /* luntan02.png in Resources */,
 				3F80498821D5B888008DBB0D /* 阴阳师.txt in Resources */,
@@ -1030,12 +1145,17 @@
 				3F8049B521D5C940008DBB0D /* 小黄人快跑图标.png in Resources */,
 				3F80496B21D5B888008DBB0D /* H1Z1.png in Resources */,
 				3F8049B221D5C940008DBB0D /* 人类一败涂地图标.png in Resources */,
+				954261B621D679550074CB2F /* 地下城与勇士rank.png in Resources */,
 				3F80497C21D5B888008DBB0D /* 开心消消乐.txt in Resources */,
+				954261A921D679550074CB2F /* 冒险岛手游rank.png in Resources */,
+				954261B521D679550074CB2F /* 剑网3rank.png in Resources */,
 				3F80498D21D5B888008DBB0D /* 5.png in Resources */,
+				954261A821D679550074CB2F /* 仙境传说RO：守护永恒的爱rank.png in Resources */,
 				3F8049B921D5C940008DBB0D /* CSGO图标.png in Resources */,
 				3F80496821D5B888008DBB0D /* 狂扁小朋友.png in Resources */,
 				3F80495821D5B887008DBB0D /* bangdan.png in Resources */,
 				3F80497B21D5B888008DBB0D /* 小黄人快跑.txt in Resources */,
+				954261AD21D679550074CB2F /* 战斗吧剑灵rank.png in Resources */,
 				3F80498A21D5B888008DBB0D /* 2.png in Resources */,
 				3F80496421D5B888008DBB0D /* 别踩白块儿.png in Resources */,
 				3F8049BB21D5C940008DBB0D /* 使命召唤图标.png in Resources */,
@@ -1044,12 +1164,15 @@
 				3F8049B421D5C940008DBB0D /* 天际线图标.png in Resources */,
 				3F8049B121D5C940008DBB0D /* 英雄联盟图标.png in Resources */,
 				3F80493E21D5B887008DBB0D /* geren-2.png in Resources */,
+				954261BC21D679550074CB2F /* 穿越火线rank.png in Resources */,
 				3F80495F21D5B887008DBB0D /* DOTA.png in Resources */,
 				3F80497521D5B888008DBB0D /* 星际争霸.txt in Resources */,
 				3F80498121D5B888008DBB0D /* 使命召唤.txt in Resources */,
 				3F80499121D5B888008DBB0D /* 9.png in Resources */,
 				3F80494121D5B887008DBB0D /* luntan-1.png in Resources */,
 				3F80494921D5B887008DBB0D /* huizhang-1.png in Resources */,
+				954261BD21D679550074CB2F /* 英雄联盟rank.png in Resources */,
+				954261CC21D6ABCB0074CB2F /* DataSource.db in Resources */,
 				3F8049D421D6551A008DBB0D /* login.jpg in Resources */,
 				3F80498321D5B888008DBB0D /* 彩虹六号.txt in Resources */,
 				3F39CE8F21D477770028BBB1 /* Assets.xcassets in Resources */,
@@ -1059,10 +1182,13 @@
 				3F80497E21D5B888008DBB0D /* 神庙逃亡.txt in Resources */,
 				3F80498521D5B888008DBB0D /* fate.txt in Resources */,
 				3F80492521D5B887008DBB0D /* luntan01.png in Resources */,
+				954261BA21D679550074CB2F /* 流放之路rank.png in Resources */,
 				3F80493A21D5B887008DBB0D /* luntan6.png in Resources */,
 				3F80495121D5B887008DBB0D /* tiezi-1.png in Resources */,
+				954261B121D679550074CB2F /* 穿越火线：枪战王者rank.png in Resources */,
 				3F80497A21D5B888008DBB0D /* 天际线.txt in Resources */,
 				3F80496021D5B887008DBB0D /* 星际争霸.png in Resources */,
+				954261AA21D679550074CB2F /* 天龙八部手游rank.png in Resources */,
 				3F80498721D5B888008DBB0D /* 炉石传说.txt in Resources */,
 				3F80497321D5B888008DBB0D /* 阴阳师.png in Resources */,
 				3F80498421D5B888008DBB0D /* 绝地求生.txt in Resources */,
@@ -1075,25 +1201,32 @@
 				3F80493521D5B887008DBB0D /* luntan1.png in Resources */,
 				3F80497621D5B888008DBB0D /* 暗黑破坏神.txt in Resources */,
 				3F80495021D5B887008DBB0D /* shezhi-2.png in Resources */,
+				954261B821D679550074CB2F /* 最终幻想14rank.png in Resources */,
 				3F80494721D5B887008DBB0D /* game-1.png in Resources */,
 				3F80495521D5B887008DBB0D /* liaotian.png in Resources */,
 				3F80493921D5B887008DBB0D /* luntan5.png in Resources */,
 				3F80494E21D5B887008DBB0D /* liuyan-2.png in Resources */,
+				954261AB21D679550074CB2F /* 崩坏3rank.png in Resources */,
 				3F80496F21D5B888008DBB0D /* 绝地求生.png in Resources */,
 				3F80494321D5B887008DBB0D /* youxi-1.png in Resources */,
 				3F80495921D5B887008DBB0D /* fenlei.png in Resources */,
 				3F8049BD21D5C940008DBB0D /* 彩虹六号图标.png in Resources */,
+				954261B921D679550074CB2F /* 梦幻西游rank.png in Resources */,
 				3F8049AF21D5C940008DBB0D /* 星际争霸图标.png in Resources */,
 				3F80493221D5B887008DBB0D /* luntanlist06.txt in Resources */,
 				3F80495721D5B887008DBB0D /* tianjiahaoyou.png in Resources */,
+				954261B021D679550074CB2F /* 皇室战争rank.png in Resources */,
 				3F80493121D5B887008DBB0D /* luntanlist05.txt in Resources */,
 				3F80494821D5B887008DBB0D /* game-2.png in Resources */,
+				954261BB21D679550074CB2F /* 炉石传说2rank.png in Resources */,
 				3F80493D21D5B887008DBB0D /* geren-1.png in Resources */,
+				954261AC21D679550074CB2F /* 我的世界rank.png in Resources */,
 				3F80498C21D5B888008DBB0D /* 4.png in Resources */,
 				3F8049C121D5C940008DBB0D /* 炉石传说图标.png in Resources */,
 				3F80493721D5B887008DBB0D /* luntan3.png in Resources */,
 				3F80497D21D5B888008DBB0D /* 狂扁小朋友.txt in Resources */,
 				3F80495221D5B887008DBB0D /* tiezi-2.png in Resources */,
+				954261B321D679550074CB2F /* 部落冲突rank.png in Resources */,
 				3F80492421D5B887008DBB0D /* LuntanPlist.plist in Resources */,
 				3F80497F21D5B888008DBB0D /* CSGO.txt in Resources */,
 				3F80497121D5B888008DBB0D /* 刺激战场.png in Resources */,
@@ -1118,6 +1251,7 @@
 				3F80494B21D5B887008DBB0D /* huizhang-3.png in Resources */,
 				3F80499321D5C6FF008DBB0D /* IntroducePList.plist in Resources */,
 				3F80496621D5B888008DBB0D /* 小黄人快跑.png in Resources */,
+				954261B221D679550074CB2F /* 诺亚传说手游rank.png in Resources */,
 				3F80495421D5B887008DBB0D /* women-2.png in Resources */,
 				3F80496321D5B888008DBB0D /* 人类一败涂地.png in Resources */,
 				3F80497021D5B888008DBB0D /* fate.png in Resources */,
@@ -1150,12 +1284,14 @@
 				3F39CE8D21D477760028BBB1 /* VPlayGameCommunity.xcdatamodeld in Sources */,
 				3F8049DF21D665D6008DBB0D /* RegisterViewController.swift in Sources */,
 				3F8049CF21D64279008DBB0D /* LoginViewController.swift in Sources */,
+				9542618821D674E00074CB2F /* ClassDetailViewController.swift in Sources */,
 				3F8049C721D6124C008DBB0D /* CommunityTableViewCell.swift in Sources */,
 				3F39CFC021D4F4760028BBB1 /* CellFlowLayout.swift in Sources */,
 				3F39CFC221D4F4760028BBB1 /* CycleView.swift in Sources */,
 				3F8049C521D5F0AB008DBB0D /* Global.swift in Sources */,
 				3F39CEBC21D47C520028BBB1 /* PersonalCenterViewController.swift in Sources */,
 				3F8049DB21D65E86008DBB0D /* SQLTable.swift in Sources */,
+				954261C921D6A0E00074CB2F /* AddFriendViewController.swift in Sources */,
 				3F80489921D5B06C008DBB0D /* TalkDetailViewController.swift in Sources */,
 				3F39CE8521D477760028BBB1 /* AppDelegate.swift in Sources */,
 				3F8049CB21D61B6B008DBB0D /* RankingListViewController.swift in Sources */,

@@ -1,21 +1,19 @@
 //
-//  RegisterViewController.swift
+//  AddFriendViewController.swift
 //  VPlayGameCommunity
 //
-//  Created by student on 2018/12/28.
+//  Created by 506 on 2018/12/29.
 //  Copyright © 2018年 余鑫 陈加兰 董雅蓓 陈鸿琦. All rights reserved.
 //
 
 import UIKit
 
-class RegisterViewController: UIViewController {
-
-    @IBOutlet weak var idTextFeild: UITextField!
+class AddFriendViewController: UIViewController {
+    
     @IBOutlet weak var nameTextFeild: UITextField!
-    @IBOutlet weak var ageTextFeild: UITextField!
-    @IBOutlet weak var sexTextFeild: UITextField!
-    @IBOutlet weak var passwdOneTextFeild: UITextField!
-    @IBOutlet weak var passwdTwoTextFeild: UITextField!
+    @IBOutlet weak var gradeTextFeild: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var returnBarButtonItem: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +21,14 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func returnBarButtonItem(_ sender: UIBarButtonItem) {
+    @objc func submitBtnAction() {
+        
+    }
+    
+    @objc func returnBarButtonItemAction() {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func submitBtnAction(_ sender: UIButton) {
-        
-    }
     /*
     // MARK: - Navigation
 

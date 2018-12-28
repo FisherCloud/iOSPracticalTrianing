@@ -29,6 +29,25 @@ class GameLibraryViewController: UIViewController {
         tableView.tableHeaderView = cycleView
     }
 
+    @IBAction func moreBtnAction(_ sender: UIButton) {
+        if user.flag {
+            let classDetailView = storyboard?.instantiateViewController(withIdentifier: "ClassDetailView") as! ClassDetailViewController
+            
+            present(classDetailView, animated: true)
+        } else {
+            let alertCtrl = UIAlertController(title: "提示", message: "当前账户未登录！不能使用此功能！", preferredStyle: .alert)
+            let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
+                let loginView = self.storyboard?.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
+                loginView.delegate = self
+                self.present(loginView, animated: true)
+            }
+            let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
+            alertCtrl.addAction(alertLogin)
+            alertCtrl.addAction(alertULogin)
+            present(alertCtrl, animated:true, completion: nil)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -40,9 +59,15 @@ class GameLibraryViewController: UIViewController {
      */
 }
 
-extension GameLibraryViewController: CycleViewDelegate {
+extension GameLibraryViewController: CycleViewDelegate, flushDelegate {
     func cycleViewDidSelectedItemAtIndex(_ index: NSInteger) {
         NSLog("cycleView selected!");
+    }
+    
+    func flushUserInfo() {
+        let classDetailView = storyboard?.instantiateViewController(withIdentifier: "ClassDetailView") as! ClassDetailViewController
+        
+        present(classDetailView, animated: true)
     }
 }
 

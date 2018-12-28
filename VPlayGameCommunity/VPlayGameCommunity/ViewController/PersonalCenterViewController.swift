@@ -10,10 +10,12 @@ import UIKit
 
 class PersonalCenterViewController: UIViewController {
 
-    var arrList = ["徽章", "我的讨论帖", "留言", "等级", "关注的游戏", "设置", "关于我们"]
+    var arrList = ["徽章", "我的讨论帖", "留言", "关注的游戏", "设置", "关于我们"]
     
     @IBOutlet weak var imageView: UIImageView!
-    
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var gradeLabel: UILabel!
     
     override func viewDidLoad() {
 
@@ -35,8 +37,12 @@ class PersonalCenterViewController: UIViewController {
     }
     
     func setImage() {
+        //print("\(user.flag ? "true" : "false")")
         if user.flag {
-            imageView.image = UIImage(named: "\(user.name).png")
+            imageView.image = UIImage(named: "8.png")
+            usernameLabel.text = "姓名：\(user.name)"
+            ageLabel.text = "年龄：\(user.age)"
+            gradeLabel.text = "等级：\(user.grade)"
         } else {
             alertUnLogin("当前账户未登录！有些功能将无法使用！")
             imageView.image = UIImage(named: "unLogin.png")
@@ -56,7 +62,7 @@ class PersonalCenterViewController: UIViewController {
     
     func login() {
         let loginView = storyboard?.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
-        
+        loginView.delegate = self
         present(loginView, animated: true)
     }
     
@@ -105,5 +111,11 @@ extension PersonalCenterViewController: UIImagePickerControllerDelegate, UINavig
             
         }
         picker.dismiss(animated: true, completion: nil)
+    }
+}
+
+extension PersonalCenterViewController: flushDelegate {
+    func flushUserInfo() {
+        setImage()
     }
 }
