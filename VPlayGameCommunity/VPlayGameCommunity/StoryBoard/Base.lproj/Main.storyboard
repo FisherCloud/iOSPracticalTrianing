@@ -408,7 +408,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PmZ-X1-Jc6"/>
                     </view>
-                    <navigationItem key="navigationItem" title="分类榜单" id="1m4-mY-BfK"/>
+                    <navigationItem key="navigationItem" title="分类榜单" id="1m4-mY-BfK">
+                        <barButtonItem key="leftBarButtonItem" title="返回" id="2gL-Np-gJq"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j5e-yx-99K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -625,20 +627,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oBd-u6-rfB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oBd-u6-rfB">
                                 <rect key="frame" x="0.0" y="417" width="375" height="312"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="312" id="cJg-wV-CTP"/>
+                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xrw-P2-UAZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xrw-P2-UAZ">
                                 <rect key="frame" x="0.0" y="88" width="375" height="321"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xrw-P2-UAZ" firstAttribute="trailing" secondItem="fSc-ZV-RZo" secondAttribute="trailing" id="4Kx-wG-rn7"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="centerX" secondItem="J95-it-r9p" secondAttribute="centerX" id="886-O3-74C"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="trailing" secondItem="fSc-ZV-RZo" secondAttribute="trailing" id="Evf-7b-8e6"/>
+                            <constraint firstItem="Xrw-P2-UAZ" firstAttribute="centerX" secondItem="J95-it-r9p" secondAttribute="centerX" id="Ff2-i7-zUS"/>
+                            <constraint firstItem="Xrw-P2-UAZ" firstAttribute="leading" secondItem="fSc-ZV-RZo" secondAttribute="leading" id="Ytq-23-U10"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="leading" secondItem="fSc-ZV-RZo" secondAttribute="leading" id="lsj-U2-zTX"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="top" secondItem="Xrw-P2-UAZ" secondAttribute="bottom" constant="8" id="pEc-PZ-Cgh"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="bottom" secondItem="fSc-ZV-RZo" secondAttribute="bottom" id="pow-Om-aVe"/>
+                            <constraint firstItem="Xrw-P2-UAZ" firstAttribute="top" secondItem="fSc-ZV-RZo" secondAttribute="top" id="uf0-Lr-q9u"/>
+                            <constraint firstItem="oBd-u6-rfB" firstAttribute="top" secondItem="Xrw-P2-UAZ" secondAttribute="bottom" constant="8" id="vw9-A2-CpU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fSc-ZV-RZo"/>
                     </view>
                     <connections>
