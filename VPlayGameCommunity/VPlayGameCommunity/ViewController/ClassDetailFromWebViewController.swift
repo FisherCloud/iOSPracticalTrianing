@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 
 class ClassDetailFromWebViewController: UIViewController, WKNavigationDelegate {
-
+    
     lazy var webView: WKWebView = {
         let web = WKWebView( frame: CGRect(x:0, y:64,width:UIScreen.main.bounds.width, height:UIScreen.main.bounds.height))
         /// 设置访问的URL
@@ -38,10 +38,18 @@ class ClassDetailFromWebViewController: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "游戏排行榜"
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: .done, target: self, action: #selector(returnAction(_:)))
+        self.navigationController?.isNavigationBarHidden = false
+        
         self.view.addSubview(webView)
         self.view.addSubview(progressView)
     }
     
+    @objc func returnAction(_ sender: UIBarButtonItem) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
     
     /*
     // MARK: - Navigation

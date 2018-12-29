@@ -10,13 +10,28 @@ import UIKit
 
 class FriendDetailViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textView: UITextView!
+    
+    var imageName: String!
+    var text: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.navigationItem.title = "好友详情页"
+        self.navigationController?.isToolbarHidden = false
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: .done, target: self, action: #selector(returnBtnAction(_:)))
+        
+        imageView.image = UIImage(named: imageName!)
+        textView.text = text
     }
     
-
+    @objc func returnBtnAction(_ sender: UIBarButtonItem) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -10,7 +10,7 @@ import UIKit
 
 class PersonalCenterViewController: UIViewController {
 
-    var arrList = ["徽章", "我的讨论帖", "留言", "关注的游戏", "设置", "关于我们"]
+    var arrList = ["徽章", "我的讨论帖", "留言", "设置", "关于我们"]
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
@@ -27,6 +27,12 @@ class PersonalCenterViewController: UIViewController {
         
         imageView.layer.cornerRadius = imageView.bounds.size.width / 2.0
         imageView.layer.masksToBounds = true
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: .done, target: self, action: #selector(returnAction(_:)))
+    }
+    
+    @objc func returnAction(_ sender: UIBarButtonItem) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func btnAction(_ sender: UIBarButtonItem) {
@@ -63,7 +69,10 @@ class PersonalCenterViewController: UIViewController {
     func login() {
         let loginView = storyboard?.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
         loginView.delegate = self
-        present(loginView, animated: true)
+        let nav = UINavigationController(rootViewController: loginView)
+        nav.isToolbarHidden = false
+        
+        present(nav, animated: true)
     }
     
     /*
@@ -93,6 +102,85 @@ extension PersonalCenterViewController: UITableViewDataSource, UITableViewDelega
         cell?.textLabel?.text = arrList[indexPath.row]
         
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let text = tableView.cellForRow(at: indexPath)?.textLabel?.text
+        if text == "设置" {
+            let setView = storyboard?.instantiateViewController(withIdentifier: "SetView") as! SetViewController
+            setView.delegate = self
+            
+            let nav = UINavigationController(rootViewController: setView)
+            
+            present(nav, animated: true)
+        } else if text == "我的讨论帖" {
+            if user.flag {
+                let personalDetailView = storyboard?.instantiateViewController(withIdentifier: "PersonalDetailView") as! PersonalDetailViewController
+                let nav = UINavigationController(rootViewController: personalDetailView)
+                
+                personalDetailView.navigationItem.title = "我的讨论帖"
+                
+                personalDetailView.imageName = "我的讨论帖.png"
+                
+                present(nav, animated: true, completion: nil)
+            } else {
+                let alertCtrl = UIAlertController(title: "提示", message: "当前账户未登录！不能使用此功能！", preferredStyle: .alert)
+                let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
+                    self.login()
+                }
+                let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
+                alertCtrl.addAction(alertLogin)
+                alertCtrl.addAction(alertULogin)
+                present(alertCtrl, animated:true, completion: nil)
+            }
+        } else if text == "留言" {
+            
+            if user.flag {
+                let personalDetailView = storyboard?.instantiateViewController(withIdentifier: "PersonalDetailView") as! PersonalDetailViewController
+                let nav = UINavigationController(rootViewController: personalDetailView)
+                
+                personalDetailView.navigationItem.title = "留言"
+                personalDetailView.imageName = "留言.png"
+                
+                present(nav, animated: true, completion: nil)
+            } else {
+                let alertCtrl = UIAlertController(title: "提示", message: "当前账户未登录！不能使用此功能！", preferredStyle: .alert)
+                let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
+                    self.login()
+                }
+                let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
+                alertCtrl.addAction(alertLogin)
+                alertCtrl.addAction(alertULogin)
+                present(alertCtrl, animated:true, completion: nil)
+            }
+        } else if text == "徽章" {
+            if user.flag {
+                let personalDetailView = storyboard?.instantiateViewController(withIdentifier: "PersonalDetailView") as! PersonalDetailViewController
+                let nav = UINavigationController(rootViewController: personalDetailView)
+                
+                personalDetailView.navigationItem.title = "徽章"
+                personalDetailView.imageName = "徽章.png"
+                
+                present(nav, animated: true, completion: nil)
+            } else {
+                let alertCtrl = UIAlertController(title: "提示", message: "当前账户未登录！不能使用此功能！", preferredStyle: .alert)
+                let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
+                    self.login()
+                }
+                let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
+                alertCtrl.addAction(alertLogin)
+                alertCtrl.addAction(alertULogin)
+                present(alertCtrl, animated:true, completion: nil)
+            }
+        } else if text == "关于我们" {
+            let personalDetailView = storyboard?.instantiateViewController(withIdentifier: "PersonalDetailView") as! PersonalDetailViewController
+            let nav = UINavigationController(rootViewController: personalDetailView)
+            
+            personalDetailView.navigationItem.title = "关于我们"
+            personalDetailView.imageName = "关于我们.png"
+            
+            present(nav, animated: true, completion: nil)
+        }
     }
     
 }

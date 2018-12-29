@@ -99,7 +99,10 @@ class LoginViewController: UIViewController {
     }
     
     @objc func registerBtnAction(_ sender: UIButton) {
+        let registerView = storyboard?.instantiateViewController(withIdentifier: "RegisterView") as! RegisterViewController
+        let nav = UINavigationController(rootViewController: registerView)
         
+        present(nav, animated: true)
     }
     
     /*
@@ -113,3 +116,4 @@ class LoginViewController: UIViewController {
     */
 
 }
+

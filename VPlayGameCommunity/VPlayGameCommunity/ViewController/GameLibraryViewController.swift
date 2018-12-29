@@ -31,15 +31,16 @@ class GameLibraryViewController: UIViewController {
 
     @IBAction func moreBtnAction(_ sender: UIButton) {
         if user.flag {
-            //let classDetailView = storyboard?.instantiateViewController(withIdentifier: "WebView") as! ClassDetailFromWebViewController
+            
             let classDetailView = ClassDetailFromWebViewController()
             
-            present(classDetailView, animated: true)
+            let nav = UINavigationController(rootViewController: classDetailView)
+            
+            present(nav, animated: true)
         } else {
             let alertCtrl = UIAlertController(title: "提示", message: "当前账户未登录！不能使用此功能！", preferredStyle: .alert)
             let alertLogin = UIAlertAction(title: "是", style: .default) { (nil) in
                 let loginView = self.storyboard?.instantiateViewController(withIdentifier: "LoginView") as! LoginViewController
-                loginView.delegate = self
                 self.present(loginView, animated: true)
             }
             let alertULogin = UIAlertAction(title: "否", style: .default, handler: nil)
@@ -60,16 +61,9 @@ class GameLibraryViewController: UIViewController {
      */
 }
 
-extension GameLibraryViewController: CycleViewDelegate, flushDelegate {
+extension GameLibraryViewController: CycleViewDelegate {
     func cycleViewDidSelectedItemAtIndex(_ index: NSInteger) {
         NSLog("cycleView selected!");
-    }
-    
-    func flushUserInfo() {
-        //let classDetailView = storyboard?.instantiateViewController(withIdentifier: "WebView") as! ClassDetailFromWebViewController
-        let classDetailView = ClassDetailFromWebViewController()
-        
-        present(classDetailView, animated: true)
     }
 }
 
@@ -97,11 +91,13 @@ extension GameLibraryViewController: UITableViewDelegate, UITableViewDataSource 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let recommendView = RecommendViewController()
+        let recommendView = storyboard?.instantiateViewController(withIdentifier: "RecommendView") as! RecommendViewController
         
-        recommendView.index = String(describing: (tableView.cellForRow(at: indexPath)?.textLabel?.text)!)
-        recommendView.initial()
-        self.navigationController?.pushViewController(recommendView, animated: true)
+        recommendView.index = String("\(tableView.cellForRow(at: indexPath)?.textLabel?.text ?? "热门游戏")")
+
+        let nav = UINavigationController(rootViewController: recommendView)
+        
+        present(nav, animated: true)
         
     }
 }

@@ -8,20 +8,13 @@
 
 import UIKit
 
-protocol RecommendViewControllerDelegate {
-    func setIndex(_ Index: String)
-}
-
 class RecommendViewController: UIViewController {
 
     public var index: String!
     
-    var arrImageName = Array<String>()
     var arrIconName = Array<String>()
     
-    public var delegate: RecommendViewControllerDelegate?
-    
-    var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,42 +22,38 @@ class RecommendViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
         
         // Do any additional setup after loading the view.
+
+        initial()
         
-        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-        self.view.addSubview(tableView)
+        self.navigationItem.title = index!
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: .done, target: self, action: #selector(returnAction(_:)))
+        self.navigationController?.isNavigationBarHidden = false
         
-        // 轮播图
-        let cycleView : CycleView = CycleView(frame: CGRect(x: 0, y: 0, width: Int(UIScreen.main.bounds.width), height: 220))
-        cycleView.mode = .scaleAspectFill
-        
-        cycleView.imageURLStringArr = arrImageName
-        
-        tableView.tableHeaderView = cycleView
+    }
+    
+    @objc func returnAction(_ sender: UIBarButtonItem) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
     func initial() {
         let path = Bundle.main.path(forAuxiliaryExecutable: "IntroducePList.plist")
         //print("\(String(describing: path))")
         let arrDic = NSDictionary(contentsOfFile: path!)
-        
+
         var dataArray = Dictionary<String, Array<String>>()
-        
+
         dataArray = arrDic as! Dictionary
-        //print("\(String(describing: index))")
-        //print("\(String(describing: dataArray))")
-        
+
         var count: Int = 0
         for temp in dataArray[index]! {
-            if count >= 3 {
-                arrIconName.append("\(temp)")
-            } else {
-                arrImageName.append("\(temp).png")
-            }
+            arrIconName.append("\(temp)")
             count += 1
         }
+
+        tableView.reloadData()
     }
     
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -72,7 +61,7 @@ class RecommendViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    
+    */
 
 }
 
@@ -87,13 +76,7 @@ extension RecommendViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        }
-        
-        print("\(arrIconName[indexPath.row])")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         
         cell?.textLabel?.text = arrIconName[indexPath.row]
         cell?.imageView?.image = UIImage(named: "\(arrIconName[indexPath.row])图标.png")
