@@ -85,6 +85,8 @@ extension GameLibraryViewController: UITableViewDelegate, UITableViewDataSource 
         }
         
         cell?.textLabel?.text = arrRecommend[indexPath.row]
+        cell?.textLabel?.font = UIFont.systemFont(ofSize: 24)
+        cell?.textLabel?.textColor = #colorLiteral(red: 0.5741485357, green: 0.5741624236, blue: 0.574154973, alpha: 1)
 
         return cell!
     }
