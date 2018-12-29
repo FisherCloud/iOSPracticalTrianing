@@ -200,6 +200,7 @@
 		954261C721D68EF10074CB2F /* jsondata.json in Resources */ = {isa = PBXBuildFile; fileRef = 954261C621D68EF10074CB2F /* jsondata.json */; };
 		954261C921D6A0E00074CB2F /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954261C821D6A0E00074CB2F /* AddFriendViewController.swift */; };
 		954261CC21D6ABCB0074CB2F /* DataSource.db in Resources */ = {isa = PBXBuildFile; fileRef = 954261CB21D6ABCB0074CB2F /* DataSource.db */; };
+		954261CE21D6F0F90074CB2F /* ClassDetailFromWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954261CD21D6F0F90074CB2F /* ClassDetailFromWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -420,6 +421,7 @@
 		954261C621D68EF10074CB2F /* jsondata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsondata.json; sourceTree = "<group>"; };
 		954261C821D6A0E00074CB2F /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		954261CB21D6ABCB0074CB2F /* DataSource.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = DataSource.db; path = VPlayGameCommunity/SQLite/DataSource.db; sourceTree = SOURCE_ROOT; };
+		954261CD21D6F0F90074CB2F /* ClassDetailFromWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailFromWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -553,6 +555,7 @@
 				3F8049CE21D64279008DBB0D /* LoginViewController.swift */,
 				3F8049DE21D665D6008DBB0D /* RegisterViewController.swift */,
 				954261C821D6A0E00074CB2F /* AddFriendViewController.swift */,
+				954261CD21D6F0F90074CB2F /* ClassDetailFromWebViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1290,6 +1293,7 @@
 				3F39CFC221D4F4760028BBB1 /* CycleView.swift in Sources */,
 				3F8049C521D5F0AB008DBB0D /* Global.swift in Sources */,
 				3F39CEBC21D47C520028BBB1 /* PersonalCenterViewController.swift in Sources */,
+				954261CE21D6F0F90074CB2F /* ClassDetailFromWebViewController.swift in Sources */,
 				3F8049DB21D65E86008DBB0D /* SQLTable.swift in Sources */,
 				954261C921D6A0E00074CB2F /* AddFriendViewController.swift in Sources */,
 				3F80489921D5B06C008DBB0D /* TalkDetailViewController.swift in Sources */,

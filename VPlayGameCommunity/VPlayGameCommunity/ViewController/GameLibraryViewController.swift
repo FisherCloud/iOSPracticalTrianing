@@ -31,7 +31,8 @@ class GameLibraryViewController: UIViewController {
 
     @IBAction func moreBtnAction(_ sender: UIButton) {
         if user.flag {
-            let classDetailView = storyboard?.instantiateViewController(withIdentifier: "ClassDetailView") as! ClassDetailViewController
+            //let classDetailView = storyboard?.instantiateViewController(withIdentifier: "WebView") as! ClassDetailFromWebViewController
+            let classDetailView = ClassDetailFromWebViewController()
             
             present(classDetailView, animated: true)
         } else {
@@ -65,7 +66,8 @@ extension GameLibraryViewController: CycleViewDelegate, flushDelegate {
     }
     
     func flushUserInfo() {
-        let classDetailView = storyboard?.instantiateViewController(withIdentifier: "ClassDetailView") as! ClassDetailViewController
+        //let classDetailView = storyboard?.instantiateViewController(withIdentifier: "WebView") as! ClassDetailFromWebViewController
+        let classDetailView = ClassDetailFromWebViewController()
         
         present(classDetailView, animated: true)
     }
